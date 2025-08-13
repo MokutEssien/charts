@@ -41,8 +41,8 @@ The analysis employed synthetic data representing product name, division, countr
 - Target Data: Contains data on each product’s yearly target as well as the product’s division.
 
 Data cleaning and transformation were conducted using Excel (Power Query and Power Pivot) to automate tasks such as date normalization, value formatting, and relational table merging. These steps ensured consistency and reduced manual processing time.
-<img width="624" height="303" alt="erd" src="https://github.com/user-attachments/assets/b11d9f91-9199-4140-811b-c68d61d54933" />
 
+<img width="624" height="303" alt="erd" src="https://github.com/user-attachments/assets/48d082d9-1128-4e2c-915e-1cddea986725" />
 
 ---
 ### Executive Summary
@@ -60,17 +60,35 @@ A downward trend exists every first quarter of the year, with **February** exper
 
 **Insights**: There has been a steady increase in yearly revenue, ranging between **$28K and $46K** in four years, most recently **$46K**. Edibles has experienced a yearly growth rate of **27%** in the past two years and an annual profit margin of **66%** consistently for the past two years.
 
+<img width="697" height="147" alt="growthrate" src="https://github.com/user-attachments/assets/cfe34eff-846f-49fa-8919-bd8c8164572b" />
+
 Monthly sales exhibit a consistent pattern every year from 2021 to 2024. Sales are at their lowest every February, yielding only **2%** of yearly sales in **2021-2022** and **3%** sales in **2023-2024**. This builds up as the year progresses, and a spike in sales is consistent every **September**, exceeding August levels by **73%** to **100%** over the past four years. This is possibly due to an expectation of October’s Halloween festivals.
 
+<img width="503" height="122" alt="trendline" src="https://github.com/user-attachments/assets/de0de524-04c1-410e-9ab9-63c3c2bd0837" /> 
+
+*Sales by month and year*
+
 Interestingly, October sales consistently declined despite the proximity to Halloween, suggesting that consumers may engage in pre-season stockpiling behaviour, purchasing in September in anticipation of October demand. Sales are usually at their highest in **December**, creating a very predictable pattern.
+
+<img width="478" height="308" alt="monthlycontri" src="https://github.com/user-attachments/assets/5c970f31-517b-4b0c-9d3d-c12f2ec0fbd8" />
+
+*Monthly Contribution to Total sales*
 
 #### Product and Division Performance
 
 **Insight**: Sales growth from **2021** to **2024** has primarily been driven by the Chocolate division, which accounted for **92%** of total revenue in 2024, generating an average of **$3.6k** in monthly revenue. Within this division, the Wonda Bar product line stands out, contributing **92%** to **96%** of sales across four years.
 
-Top-performing products include **milk chocolate, scrumdiddlyumptious, triple dazzle caramel, fudge mallows, and the nutty crunch surprise**. Between the range of **92%** to **96%** of total sales are generated from the Wonda Bar product line, with **Triple Dazzle Caramel** as the best-performing product and top sales driver consistently for 4 years. The Triple Dazzle Caramel has also attained a growth rate of **33%** in **2024**.
+Top-performing products include **milk chocolate, scrumdiddlyumptious, triple dazzle caramel, fudge mallows, and the nutty crunch surprise**. Between the range of **92%** to **96%** of total sales are generated from the Wonda Bar product line of the chocolate division, with **Triple Dazzle Caramel** as the best-performing product and top sales driver consistently for 4 years. The **Triple Dazzle Caramel** has also attained a growth rate of **33%** in **2024**.
 
-Inversely, the sugar division has shown no productivity, driving less than **1%** of total sales and meeting only **1%** of the yearly sales target. Products such as **Everlasting Bobstopper, Hair Toffee, and Fun Drip** have had no sales in **2021** and **2022**and have struggled to gain momentum ever since.
+<img width="502" height="368" alt="wondabar sugar" src="https://github.com/user-attachments/assets/1f712bf7-abca-42b1-acd0-631e6cbc4da6" />
+
+*Top-Performing Products & Target Achievement by Division*
+
+Inversely, the sugar division has shown no productivity, driving less than **1%** of total sales and meeting only **1%** of the yearly sales target. There have also been periods of zero activity which calls for concern and investigation is recommended. Products such as **Everlasting Bobstopper, Hair Toffee, and Fun Drip** have had no sales in **2021** and **2022**and have struggled to gain momentum ever since.
+
+<img width="725" height="148" alt="sugarsales" src="https://github.com/user-attachments/assets/a452a3da-7e1c-4ecc-8bcf-7251e98ff936" />
+
+*Sugar division yearly contribution to sales*
 
 #### Country Performance Analysis
 
